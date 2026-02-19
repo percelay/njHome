@@ -1,0 +1,37 @@
+[HOME PAGE]
+[HERO_HEADLINE]: Welcome to NJMHA
+[HERO_SUBTEXT]: For over 65 years the New Jersey Manufactured Housing Association has been the leading source of information on manufactured homes in New Jersey. NJMHA provides information to homebuyers and those that develop and market factory built housing.
+[HERO_PARAGRAPH]: We provide information on the homes, their locations, and the various lifestyles to those purchasing everything from starter homes to retirement homes. Our primary purpose is to provide affordable, high quality housing options to New Jersey residents. Advances in the technology of factory built housing are remarkable. The results are virtually an unlimited selection of architectural designs and floor plans. Over 150 communities in New Jersey are members of the NJMHA. We offer something for everyone.
+
+[ABOUT PAGE]
+[MISSION_STATEMENT]: NJMHA is a non-profit organization established for the betterment and advancement of manufactured housing in NJ. Its members promote and supply NJ residents with attractive affordable housing with a high standard of professionalism and integrity. The association is dedicated to maintaining a keen awareness of all aspects of the manufactured housing industry both statewide and nationally. Our executive director, board and committee members are committed to diligently monitor, study and review all pertinent issues affecting our industry and to clearly communicate its objectives to NJMHA members and the public.
+[WHAT_WE_DO]: Dedication to the industry and professionalism mark NJMHA members. NJMHA has been serving the manufactured housing industry for 68 years. Approximately 150 manufactured housing communities and 50 associate organizations are members of the NJMHA. Princeton Public Affairs Group works with NJMHA tracking approximately 100 bills in the legislature along with regulatory changes. We advocate for, support and promote manufactured housing communities in the state of New Jersey.
+[FEATURE_1_EDUCATE]: We Educate and Support - NJMHA provides a community for our communities where members share questions, concerns and ideas. Our members drive our programs and educational events.
+[FEATURE_2_ADVOCATE]: We Advocate and Promote - NJMHA’s Political Action Committee (PAC), Preserve Affordable Housing for New Jersey, makes it possible for members to develop relationships with legislators and regulators at the state and federal level.
+[FEATURE_3_SHARE]: We Share and Communicate - Housing Insight, a comprehensive newsletter dedicated to the manufactured housing industry, is published quarterly. 
+
+[BUYING A HOME PAGE]
+[SECTION_1]: What is a Manufactured Home? Is it manufactured, modular or mobile? Manufactured homes are constructed to comply with the National Manufactured Home Construction and Safety Standards.
+[SECTION_2]: Value - Our greatest attribute is delivering quality and value to consumers.
+[SECTION_3]: What is The HUD Code? Well, it is just a a building code, that’s all. In fact it may be the simplest building code ever to exist.
+[SECTION_4]: Land Lease Lifestyle Benefits - Many New Jersey home buyers site their new manufactured homes in planned developments where they typically own the home as personal property and lease a home site from the company responsible for maintaining community amenities and services.
+
+[MEMBERS AREA PAGE]
+[RESOURCES_LIST]: Advertise With Us, Board of Directors, Bylaws-October 18, 2018, Directory of NJMHA Members, HUD News and Forms, Legislation and Regulation.
+[CALENDAR_2026]: 
+- Legislative Meeting: March 11, 2026 (Zoom at Noon)
+- Spring Educational Luncheon: April 23, 2026
+- Summer Social: TBA
+- Annual Meeting: October 22, 2026
+[NEWS_ITEM]: NJ Department of Community Affairs Proposes to Discontinue State’s Role in Manufactured Housing Program. The HUD manufactured housing program was designed as a partnership between federal and state governments. New Jersey never completed their state portion... NJMHA encourages everyone who installs new homes to read the DCA’s rule proposal. 
+
+[GLOBAL CONTACT / FOOTER]
+[ADDRESS]: New Jersey Manufactured Housing Association, 2741 Nottingham Way, Trenton, NJ 08619
+[PHONE]: (609) 588-9040
+[EMAIL]: njmha@njmha.org
+
+[MEDIA / PROJECT LINKS]
+Embed or utilize these links contextually throughout the site (e.g., Hero sections or Media galleries):
+- Video 1: https://www.youtube.com/watch?v=pnU8ySzhbXs
+- Video 2: https://www.youtube.com/watch?v=b1RbRxBt6QY
+- Video 3: https://www.youtube.com/watch?v=AUeWLwXq6BY
