@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiteLogo } from "@/components/site-logo";
 
 const members = [
   "Advertise With Us",
@@ -12,7 +13,7 @@ export function SiteFooter() {
     <footer className="bg-slate-900 text-slate-200">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-14 md:grid-cols-4">
         <div className="space-y-4">
-          <h3 className="font-[var(--font-heading)] text-lg font-semibold text-white">NJMHA</h3>
+          <SiteLogo showTagline tone="dark" />
           <p className="text-sm text-slate-300">
             For over 65 years, the New Jersey Manufactured Housing Association has been a trusted voice for affordable, high-quality housing.
           </p>

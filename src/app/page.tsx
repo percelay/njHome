@@ -84,15 +84,18 @@ const calendarEvents = [
 const mediaLinks = [
   {
     title: "Video 1",
-    href: "https://www.youtube.com/watch?v=pnU8ySzhbXs"
+    href: "https://www.youtube.com/watch?v=pnU8ySzhbXs",
+    embedSrc: "https://www.youtube.com/embed/pnU8ySzhbXs?rel=0"
   },
   {
     title: "Video 2",
-    href: "https://www.youtube.com/watch?v=b1RbRxBt6QY"
+    href: "https://www.youtube.com/watch?v=b1RbRxBt6QY",
+    embedSrc: "https://www.youtube.com/embed/b1RbRxBt6QY?rel=0"
   },
   {
     title: "Video 3",
-    href: "https://www.youtube.com/watch?v=AUeWLwXq6BY"
+    href: "https://www.youtube.com/watch?v=AUeWLwXq6BY",
+    embedSrc: "https://www.youtube.com/embed/AUeWLwXq6BY?rel=0"
   }
 ];
 
@@ -272,18 +275,34 @@ export default function HomePage() {
       <section className="rounded-2xl border border-slate-200 bg-surface p-8 shadow-sm">
         <h2 className="text-2xl font-bold text-primary">Media Library</h2>
         <p className="mt-2 text-sm text-text-muted">Explore all featured NJMHA videos.</p>
-        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {mediaLinks.map((item) => (
-            <a
+            <article
               key={item.href}
-              href={item.href}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md"
+              className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md"
             >
-              <p className="font-[var(--font-heading)] text-lg font-semibold text-primary">{item.title}</p>
-              <p className="mt-1 text-sm text-accent">Watch on YouTube</p>
-            </a>
+              <div className="aspect-video overflow-hidden rounded-lg bg-slate-200">
+                <iframe
+                  className="h-full w-full"
+                  src={item.embedSrc}
+                  title={item.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
+              <div className="px-1 pb-1 pt-3">
+                <p className="font-[var(--font-heading)] text-base font-semibold text-primary">{item.title}</p>
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-1 inline-block text-sm font-medium text-accent transition duration-200 hover:-translate-y-1"
+                >
+                  Watch on YouTube
+                </a>
+              </div>
+            </article>
           ))}
         </div>
       </section>

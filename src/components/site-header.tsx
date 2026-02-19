@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiteLogo } from "@/components/site-logo";
 
 const navItems = [
   { href: "/#home", label: "Home" },
@@ -11,8 +12,8 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200 bg-bg/80 backdrop-blur-md">
       <div className="mx-auto flex h-20 w-full max-w-6xl items-center justify-between gap-4 px-6">
-        <Link href="/" className="font-[var(--font-heading)] text-lg font-bold tracking-tight text-primary transition-transform duration-200 hover:-translate-y-1">
-          NJMHA
+        <Link href="/" className="transition-transform duration-200 hover:-translate-y-1">
+          <SiteLogo />
         </Link>
 
         <nav className="flex items-center gap-3 overflow-x-auto text-xs sm:gap-6 sm:text-sm">
