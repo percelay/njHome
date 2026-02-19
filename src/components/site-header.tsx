@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/buying-a-home", label: "Buying a Home" },
-  { href: "/members", label: "Members" }
+  { href: "/#home", label: "Home" },
+  { href: "/#about", label: "About" },
+  { href: "/#buying", label: "Buying" },
+  { href: "/#members", label: "Members" }
 ];
 
 export function SiteHeader() {
@@ -28,7 +28,7 @@ export function SiteHeader() {
         </nav>
 
         <Link
-          href="mailto:njmha@njmha.org"
+          href="/#contact"
           className="hidden rounded-xl bg-gradient-to-r from-accent to-sky-400 px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md md:inline-flex"
         >
           Contact

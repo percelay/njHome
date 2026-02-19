@@ -22,17 +22,17 @@ export function SiteFooter() {
           <h3 className="font-[var(--font-heading)] text-sm font-semibold uppercase tracking-wide text-white">Links</h3>
           <ul className="space-y-2 text-sm text-slate-300">
             <li>
-              <Link href="/about" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
+              <Link href="/#about" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
                 Mission & What We Do
               </Link>
             </li>
             <li>
-              <Link href="/buying-a-home" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
+              <Link href="/#buying" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
                 Buying a Home
               </Link>
             </li>
             <li>
-              <Link href="/members" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
+              <Link href="/#members" className="inline-block transition duration-200 hover:-translate-y-1 hover:text-white">
                 Member Area
               </Link>
             </li>
