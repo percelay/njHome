@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   BookOpenText,
   Building2,
@@ -156,13 +157,13 @@ export default function HomePage() {
         <div className="space-y-4">
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-md">
             <div className="aspect-video overflow-hidden rounded-xl bg-slate-200">
-              <iframe
-                className="h-full w-full"
-                src="https://www.youtube.com/embed/pnU8ySzhbXs?rel=0"
-                title="NJMHA Featured Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
+              <Image
+                src="/hero.jpg"
+                alt="NJMHA featured hero"
+                width={1280}
+                height={720}
+                className="h-full w-full object-cover"
+                priority
               />
             </div>
           </div>
